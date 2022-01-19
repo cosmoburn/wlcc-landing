@@ -15,6 +15,10 @@ const PageLayout = styled.div`
   height: 100vh;
   display: flex;
   flex-direction: column;
+  
+  @media only screen and (min-width: 1200px) {
+    max-width: 2000px;
+  }
 `
 
 export default Layout

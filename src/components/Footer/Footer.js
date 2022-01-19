@@ -15,24 +15,46 @@ const Footer = () => (
         <StaticImage src="../../images/opensea.svg" alt="Open Sea" placeholder="blurred"/>
       </SocialButton>
     </SocialContainer>
+    <CactusImage>
+      <StaticImage src="../images/cactus.png" alt="Cactus with sunglasses" placeholder="transparent"/>
+    </CactusImage>
   </StyledFooter>
 )
 
 const StyledFooter = styled.div`
-  padding-bottom: 5rem;
+  padding: 2rem 0 5rem 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  max-width: fit-content;
+  width: 100%;
+  position: relative;
 `
 
 const SocialContainer = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 3rem;
+  display: flex;
+  justify-content: flex-start;
   align-items: center;
 `
 
 const SocialButton = styled.a`
   cursor: pointer;
+  margin-right: 3rem;
 `
+
+const CactusImage = styled.div`
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80%;
+  max-width: 420px;
+
+  @media only screen and (min-width:632px) {
+    max-width: 520px;
+  }
+
+  @media only screen and (min-width:1080px) {
+    max-width: 620px;
+  } 
+  
+`
+
 export default Footer

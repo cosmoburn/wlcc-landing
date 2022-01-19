@@ -21,18 +21,15 @@ const IndexPage = () => {
         </AltText>
       </Main>
       <Footer />
-      <CactusImage>
-        <StaticImage src="../images/cactus.png" alt="Cactus with sunglasses" placeholder="transparent"/>
-      </CactusImage>
     </Layout>
   )
 }
 
 const Main = styled.main`
-  padding-bottom: 2rem;
-  @media only screen and (min-width: 632px) {
+  //padding-bottom: 2rem;
+  //@media only screen and (min-width: 632px) {
     flex-grow: 1;
-  }
+  //}
 `
 
 const JumboText = styled.div`
@@ -64,24 +61,5 @@ const AltText = styled.div`
   }
 `
 
-const CactusImage = styled.div`
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  width: 80%;
-  max-width: 420px;
-  display: flex;
-  justify-content: flex-end;
-
-
-  @media only screen and (min-width:632px) {
-    max-width: 520px;
-  }
-
-  @media only screen and (min-width:1080px) {
-    max-width: 620px;
-  } 
-  
-`
 
 export default IndexPage
