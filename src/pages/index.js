@@ -29,17 +29,19 @@ const IndexPage = () => {
 }
 
 const Main = styled.main`
-  flex-grow: 1;
+  @media only screen and (min-width: 632px) {
+    flex-grow: 1;
+  }
 `
 
 const JumboText = styled.div`
-  font-size: 4rem;
+  font-size: 3rem;
   text-transform: uppercase;
   font-family: "Upheaval TT (BRK)", sans-serif;
   color: white;
 
   @media only screen and (min-width:632px) {
-    font-size: 5rem;
+    font-size: 4.5rem;
   }
   
   @media only screen and (min-width:1080px) {

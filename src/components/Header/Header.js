@@ -21,7 +21,7 @@ const StyledHeader = styled.div`
   align-items: center;
 `
 const HeaderLogo = styled.div`
-  max-width: 250px;
+  max-width: 170px;
 
   @media only screen and (min-width:632px) {
     max-width: initial;
@@ -45,6 +45,7 @@ const CactusButton = styled.button`
   
   span {
     margin-right: .5rem;
+    margin-top 5px;
   }
 `
 export default Header
