@@ -78,7 +78,7 @@ const CactusImage = styled.div`
   }
 
   @media only screen and (min-width:1080px) {
-    max-width: 760px;
+    max-width: 700px;
   } 
   
 `
