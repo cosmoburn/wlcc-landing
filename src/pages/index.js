@@ -66,12 +66,17 @@ const CactusImage = styled.div`
   bottom: 0;
   right: 0;
   width: 80%;
-  max-width: 800px;
+  max-width: 400px;
   display: flex;
   justify-content: flex-end;
 
-  @media only screen and (max-width:1080px) {
-    max-width: 600px;
+
+  @media only screen and (min-width:632px) {
+    max-width: 560px;
+  }
+
+  @media only screen and (min-width:1080px) {
+    max-width: 760px;
   } 
   
 `

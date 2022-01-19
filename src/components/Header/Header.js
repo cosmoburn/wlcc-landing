@@ -25,6 +25,7 @@ const CactusButton = styled.button`
   width: 155px;
   height: 51px;
   cursor: pointer;
+  border: none;
   border-bottom: 5px solid #739E4C;
   display: flex;
   align-items: center;
