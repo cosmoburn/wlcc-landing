@@ -29,6 +29,7 @@ const IndexPage = () => {
 }
 
 const Main = styled.main`
+  padding-bottom: 2rem;
   @media only screen and (min-width: 632px) {
     flex-grow: 1;
   }
