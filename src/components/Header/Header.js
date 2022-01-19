@@ -15,10 +15,15 @@ const Header = () => (
 )
 
 const StyledHeader = styled.div`
-  padding: 5rem 0;
+  padding: 2rem 0 3rem 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media only screen and (min-width:632px) {
+    padding: 4rem 0;
+  }
+  
 `
 const HeaderLogo = styled.div`
   max-width: 170px;
