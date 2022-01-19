@@ -19,6 +19,17 @@ const IndexPage = () => {
         <AltText>
           We're currently working on a brand new<br/> site, stay tuned for more!
         </AltText>
+        <SocialContainer>
+          <SocialButton href="https://twitter.com/WLCCNFT" target="_blank">
+            <StaticImage width={50} src="../images/twitter.svg" alt="Twitter" placeholder="blurred"/>
+          </SocialButton>
+          <SocialButton href="https://discord.gg/26rfMTjrhD" target="_blank">
+            <StaticImage width={50} src="../images/disco.svg" alt="Discord" placeholder="blurred"/>
+          </SocialButton>
+          <SocialButton href="https://opensea.io/collection/wlcc" target="_blank">
+            <StaticImage width={50} src="../images/opensea.svg" alt="Open Sea" placeholder="blurred"/>
+          </SocialButton>
+        </SocialContainer>
       </Main>
       <Footer />
     </Layout>
@@ -26,10 +37,7 @@ const IndexPage = () => {
 }
 
 const Main = styled.main`
-  //padding-bottom: 2rem;
-  //@media only screen and (min-width: 632px) {
-    flex-grow: 1;
-  //}
+  flex-grow: 1;
 `
 
 const JumboText = styled.div`
@@ -43,7 +51,12 @@ const JumboText = styled.div`
   }
   
   @media only screen and (min-width:1080px) {
-    font-size: 7.1rem;
+    font-size: 7rem;
+  }
+
+  @media only screen and (min-width: 2000px) {
+    margin-top: 4rem;
+    font-size: 9rem;
   }
 `
 
@@ -57,9 +70,34 @@ const AltText = styled.div`
   }
   
   @media only screen and (min-width:1080px) {
-    font-size: 2rem;
+    font-size: 1.75rem;
+  }
+  
+  @media only screen and (min-width: 2000px) {
+    font-size: 2.5rem;
   }
 `
 
+const SocialContainer = styled.div`
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 2rem;
+  padding: 3rem 0;
+  
+  @media only screen and (min-width: 2000px) {
+    padding: 8rem 0;
+  } 
+`
+
+const SocialButton = styled.a`
+  cursor: pointer;
+  margin-right: 3rem;
+  max-width: 38px;
+
+  @media only screen and (min-width: 1080px) {
+    max-width: initial;
+  }
+`
 
 export default IndexPage

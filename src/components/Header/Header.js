@@ -24,6 +24,10 @@ const StyledHeader = styled.div`
     padding: 4rem 0;
   }
   
+  @media only screen and (min-width: 2000px) {
+    padding: 8rem 0 6rem;
+  }
+  
 `
 const HeaderLogo = styled.div`
   max-width: 170px;
@@ -52,6 +56,12 @@ const CactusButton = styled.button`
     margin-right: .5rem;
     margin-top: 5px;
     color: black;
+  }
+
+  @media only screen and (min-width: 2000px) {
+    font-size: 24px;
+    height: 74px;
+    width: 220px;
   }
 `
 export default Header
