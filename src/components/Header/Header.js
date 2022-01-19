@@ -51,6 +51,7 @@ const CactusButton = styled.button`
   span {
     margin-right: .5rem;
     margin-top: 5px;
+    color: black;
   }
 `
 export default Header
