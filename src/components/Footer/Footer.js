@@ -16,7 +16,7 @@ const Footer = () => (
       </SocialButton>
     </SocialContainer>
     <CactusImage>
-      <StaticImage src="../images/cactus.png" alt="Cactus with sunglasses" placeholder="transparent"/>
+      <StaticImage src="../../images/cactus.png" alt="Cactus with sunglasses" placeholder="transparent"/>
     </CactusImage>
   </StyledFooter>
 )
