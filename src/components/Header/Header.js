@@ -1,11 +1,12 @@
 import React from 'react'
 import styled from '@emotion/styled'
-// import Logo from '/src/images/logo.png'
 import { StaticImage } from 'gatsby-plugin-image'
 
 const Header = () => (
   <StyledHeader>
-    <StaticImage src="../../images/logo.png" alt="WLCC Logo" placeholder="transparent"/>
+    <HeaderLogo>
+      <StaticImage src="../../images/logo.png" alt="WLCC Logo" placeholder="transparent"/>
+    </HeaderLogo>
     <CactusButton>
       <span>Dashboard</span>
       <StaticImage src="../../images/arrow.svg" alt="Arrow Right" placeholder="transparent"/>
@@ -18,6 +19,14 @@ const StyledHeader = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+`
+const HeaderLogo = styled.div`
+  max-width: 250px;
+
+  @media only screen and (min-width:632px) {
+    max-width: initial;
+  }
+  
 `
 
 const CactusButton = styled.button`
