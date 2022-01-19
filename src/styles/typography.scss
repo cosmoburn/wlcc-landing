@@ -10,18 +10,18 @@
 
 @font-face {
   font-family: 'Pixellari';
-  src: url('pixellari-webfont.woff2') format('woff2'),
-       url('pixellari-webfont.woff') format('woff'),
-       url('Pixellari.ttf') format('truetype');
+  src: url('../fonts/pixellari-webfont.woff2') format('woff2'),
+       url('../fonts/pixellari-webfont.woff') format('woff'),
+       url('../fonts/Pixellari.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Upheaval TT (BRK)';
-  src: url('upheavtt-webfont.woff2') format('woff2'),
-       url('upheavtt-webfont.woff') format('woff'),
-       url('upheavtt.ttf') format('truetype');
+  src: url('../fonts/upheavtt-webfont.woff2') format('woff2'),
+       url('../fonts/upheavtt-webfont.woff') format('woff'),
+       url('../fonts/upheavtt.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 
