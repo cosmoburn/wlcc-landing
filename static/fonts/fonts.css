@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Pixellari";
+  src: url("pixellari.ttf") format('truetype'),
+       url("pixellari.woff") format('woff'),
+       url("pixellari.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: "Upheaval TT (BRK)";
+  src: url("upheavtt.ttf") format('truetype'),
+       url("upheavtt.woff") format('woff'),
+       url("upheavtt.woff2") format('woff2');
+}

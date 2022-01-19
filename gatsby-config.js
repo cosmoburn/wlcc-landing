@@ -17,5 +17,15 @@ module.exports = {
       },
       __key: "images"
     },
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        custom: {
+          families: ["Pixellari, Upheaval TT (BRK)"],
+          urls: ["/fonts/fonts.css"],
+        },
+      },
+    },
+
   ]
 };
