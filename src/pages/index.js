@@ -21,13 +21,13 @@ const IndexPage = () => {
         </AltText>
         <SocialContainer>
           <SocialButton href="https://twitter.com/WLCCNFT" target="_blank">
-            <StaticImage width={50} src="../images/twitter.svg" alt="Twitter" placeholder="blurred"/>
+            <StaticImage width={60} src="../images/twitter.png" alt="Twitter" placeholder="blurred"/>
           </SocialButton>
           <SocialButton href="https://discord.gg/26rfMTjrhD" target="_blank">
-            <StaticImage width={50} src="../images/disco.svg" alt="Discord" placeholder="blurred"/>
+            <StaticImage width={60} src="../images/discord.png" alt="Discord" placeholder="blurred"/>
           </SocialButton>
           <SocialButton href="https://opensea.io/collection/wlcc" target="_blank">
-            <StaticImage width={50} src="../images/opensea.svg" alt="Open Sea" placeholder="blurred"/>
+            <StaticImage width={60} src="../images/opensea.png" alt="Open Sea" placeholder="blurred"/>
           </SocialButton>
         </SocialContainer>
       </Main>
@@ -96,8 +96,13 @@ const SocialButton = styled.a`
   max-width: 38px;
 
   @media only screen and (min-width: 1080px) {
+    max-width: 50px;
+  }
+
+  @media only screen and (min-width: 2000px) {
     max-width: initial;
   }
+  
 `
 
 export default IndexPage
