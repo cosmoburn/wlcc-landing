@@ -16,7 +16,11 @@ const PageLayout = styled.div`
   display: flex;
   flex-direction: column;
   
-  @media only screen and (min-width: 2000px) {
+  @media only screen and (min-width: 1920px) {
+    max-width: 1700px;
+  }
+  
+  @media only screen and (min-width: 2500px) {
     max-width: 2000px;
   }
 `

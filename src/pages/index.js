@@ -23,7 +23,7 @@ const IndexPage = () => {
           <SocialButton href="https://twitter.com/WLCCNFT" target="_blank">
             <StaticImage width={60} src="../images/twitter.png" alt="Twitter" placeholder="blurred"/>
           </SocialButton>
-          <SocialButton href="https://discord.gg/26rfMTjrhD" target="_blank">
+          <SocialButton href="https://discord.gg/wlcc" target="_blank">
             <StaticImage width={60} src="../images/discord.png" alt="Discord" placeholder="blurred"/>
           </SocialButton>
           <SocialButton href="https://opensea.io/collection/wlcc" target="_blank">
@@ -54,7 +54,7 @@ const JumboText = styled.div`
     font-size: 7rem;
   }
 
-  @media only screen and (min-width: 2000px) {
+  @media only screen and (min-width: 1920px) {
     margin-top: 4rem;
     font-size: 9rem;
   }
@@ -73,7 +73,7 @@ const AltText = styled.div`
     font-size: 1.75rem;
   }
   
-  @media only screen and (min-width: 2000px) {
+  @media only screen and (min-width: 1920px) {
     font-size: 2.5rem;
   }
 `
@@ -85,7 +85,7 @@ const SocialContainer = styled.div`
   margin-top: 2rem;
   padding: 3rem 0;
   
-  @media only screen and (min-width: 2000px) {
+  @media only screen and (min-width: 1920px) {
     padding: 8rem 0;
   } 
 `
@@ -99,7 +99,7 @@ const SocialButton = styled.a`
     max-width: 50px;
   }
 
-  @media only screen and (min-width: 2000px) {
+  @media only screen and (min-width: 1920px) {
     max-width: initial;
   }
   

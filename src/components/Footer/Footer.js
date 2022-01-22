@@ -9,7 +9,7 @@ const Footer = () => (
         src="../../images/cactus.png"
         alt="Cactus with sunglasses"
         placeholder="transparent"
-        width={1500}
+        width={1600}
         height={'auto'}
       />
     </CactusImage>
@@ -36,11 +36,19 @@ const CactusImage = styled.div`
   }
 
   @media only screen and (min-width:1080px) {
-    max-width: 620px;
+    max-width: 640px;
   }
   
-  @media only screen and (min-width: 2000px) {
-    max-width: 1600px;
+  @media only screen and (min-width:1440px) {
+    max-width: 800px;
+  }
+  
+  @media only screen and (min-width: 1920px) {
+    max-width: 1000px;
+  }
+  
+  @media only screen and (min-width: 2500px) {
+    max-width: 1400px;
   }
 
 `

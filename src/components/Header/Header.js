@@ -24,7 +24,7 @@ const StyledHeader = styled.div`
     padding: 4rem 0;
   }
   
-  @media only screen and (min-width: 2000px) {
+  @media only screen and (min-width: 1920px) {
     padding: 8rem 0 6rem;
   }
   
@@ -58,7 +58,7 @@ const CactusButton = styled.button`
     color: black;
   }
 
-  @media only screen and (min-width: 2000px) {
+  @media only screen and (min-width: 1920px) {
     font-size: 24px;
     height: 74px;
     width: 220px;
