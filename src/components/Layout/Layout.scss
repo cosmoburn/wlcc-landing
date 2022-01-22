@@ -8,8 +8,6 @@ html {
 html {
   margin: 0;
   padding: 0;
-  height: 100vh;
-  min-height: -webkit-fill-available;
 }
 
 body {
@@ -20,20 +18,6 @@ body {
   background-size: cover;
   padding: 0;
   margin: 0;
+  height: 100vh;
   font-family: "Pixellari", sans-serif;
-  height: 100vh;
-  /* mobile viewport bug fix */
-  min-height: -webkit-fill-available;
-}
-
-#___gatsby {
-  height: 100vh;
-  /* mobile viewport bug fix */
-  min-height: -webkit-fill-available;
-}
-
-#gatsby-focus-wrapper {
-  height: 100vh;
-  /* mobile viewport bug fix */
-  min-height: -webkit-fill-available;
 }

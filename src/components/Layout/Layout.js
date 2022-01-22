@@ -12,10 +12,9 @@ const PageLayout = styled.div`
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 1rem;
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  min-height: -webkit-fill-available;
   
   @media only screen and (min-width: 1920px) {
     max-width: 1700px;
