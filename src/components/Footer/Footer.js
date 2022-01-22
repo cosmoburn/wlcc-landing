@@ -9,7 +9,7 @@ const Footer = () => (
         src="../../images/cactus.png"
         alt="Cactus with sunglasses"
         placeholder="transparent"
-        width={'1600'}
+        width={1500}
         height={'auto'}
       />
     </CactusImage>
