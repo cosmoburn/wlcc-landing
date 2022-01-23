@@ -2,17 +2,24 @@ import React from 'react'
 import styled from '@emotion/styled'
 import { StaticImage } from 'gatsby-plugin-image'
 
-const Header = () => (
-  <StyledHeader>
-    <HeaderLogo>
-      <StaticImage src="../../images/logo.png" alt="WLCC Logo" placeholder="transparent"/>
-    </HeaderLogo>
-    <CactusButton>
-      <span>Dashboard</span>
-      <StaticImage src="../../images/arrow.svg" alt="Arrow Right" placeholder="transparent"/>
-    </CactusButton>
-  </StyledHeader>
-)
+const Header = () => {
+
+  const goToDash = () => {
+    window.location.href = 'https://dash.wlcc.io/';
+  }
+
+  return (
+    <StyledHeader>
+      <HeaderLogo>
+        <StaticImage src="../../images/logo.png" alt="WLCC Logo" placeholder="transparent"/>
+      </HeaderLogo>
+      <CactusButton onClick={goToDash}>
+        <span>Dashboard</span>
+        <StaticImage src="../../images/arrow.svg" alt="Arrow Right" placeholder="transparent"/>
+      </CactusButton>
+    </StyledHeader>
+  )
+}
 
 const StyledHeader = styled.div`
   padding: 2rem 0 3rem 0;

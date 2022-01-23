@@ -36,11 +36,11 @@ const CactusImage = styled.div`
   }
 
   @media only screen and (min-width:1080px) {
-    max-width: 640px;
+    max-width: 600px;
   }
   
   @media only screen and (min-width:1440px) {
-    max-width: 800px;
+    max-width: 700px;
   }
   
   @media only screen and (min-width: 1920px) {
