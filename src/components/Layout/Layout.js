@@ -20,7 +20,7 @@ const PageLayout = styled.div`
     max-width: 1700px;
   }
   
-  @media only screen and (min-width: 2500px) {
+  @media only screen and (min-width: 2600px) {
     max-width: 2000px;
   }
 `

@@ -59,7 +59,7 @@ const JumboText = styled.div`
     font-size: 6rem;
   }
   
-  @media only screen and (min-width: 2500px) {
+  @media only screen and (min-width: 2600px) {
     font-size: 9rem;
   }
 `
@@ -81,7 +81,7 @@ const AltText = styled.div`
     font-size: 1.75rem;
   }
   
-  @media only screen and (min-width: 2500px) {
+  @media only screen and (min-width: 2600px) {
     font-size: 2.25rem;
   }
 `
